@@ -36,6 +36,8 @@ Creating: root_ca/private_key.pem
 
 The ca bundle will always be created in a folder called `root_ca` in the current directory. *Do not move this as its hardcoded location is used for generating intermediates (yes I know...)*
 
+**BACK THIS STUFF UP. THE PRIVATE KEY FOR THE ROOT IS ONLY USED WHEN GENERATING NEW INTERMEDIATES, BUT IF YOU LOSE IT IT'S GONE FOREVER.**
+
 To generate an intermediate:
 
 ```
